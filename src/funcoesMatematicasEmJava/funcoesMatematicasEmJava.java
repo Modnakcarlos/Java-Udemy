@@ -22,7 +22,7 @@ public class funcoesMatematicasEmJava {
 
         System.out.println(x + " elevado a " + y + " é igual a " + A);
         System.out.println(y + " elevado a 2" + " é igual a " + B);
-        System.out.println(x + " elevado a -5 " + " é igual a " + C);
+        System.out.println(z + " elevado a -5 " + " é igual a " + C);
 
         A = Math.abs(y);
         B = Math.abs(z);
