@@ -14,11 +14,11 @@ public class sintaxeOpcional {
 
         if (tempo <= 100) {
              System.out.println("Valor a pagar: R$ 50,00");
-        } else if (tempo > 100) {
+        } else {
             taxa = (tempo - 100) * 2 + 50;
             
             System.out.println("O valor a ser pago é: " + taxa);
-       }
+        }
 
 
 
