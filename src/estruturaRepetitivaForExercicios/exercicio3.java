@@ -10,10 +10,6 @@ public class exercicio3 {
         System.out.println("Insira a quantidade de casos desejados");
         int casos = sc.nextInt();
 
-        double A = 0;
-        double B = 0;
-        double C = 0; 
-        double mediaPonderada = 0;
 
 
         for (int i = 0; i < casos; i ++) {
@@ -21,22 +17,16 @@ public class exercicio3 {
             System.out.println("Novo caso, insira 3 valores");
             
             
-            A = sc.nextDouble();
-            B = sc.nextDouble();
-            C = sc.nextDouble();
+            double A = sc.nextDouble();
+            double B = sc.nextDouble();
+            double C = sc.nextDouble();
 
-            mediaPonderada = (A * 2) + (B * 3) + (C * 5)/ (10);
+            double mediaPonderada = (A * 2) + (B * 3) + (C * 5)/ (10);
+            System.out.println("média ponderada dos valores informados " + mediaPonderada);
+            
+
+
         }
-
-        
-        System.out.println("média ponderada dos valores informados " + mediaPonderada);
-
-
-
-
-
-
-
 
         sc.close();
     }
