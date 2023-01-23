@@ -26,27 +26,6 @@ public class exercicio1 {
         }
         
 
-
-
-
-
-
-
-
-
-
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         /* 
         int x = sc.nextInt();
         
