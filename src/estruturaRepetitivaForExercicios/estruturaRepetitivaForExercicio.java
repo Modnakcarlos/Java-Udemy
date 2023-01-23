@@ -17,7 +17,7 @@ public class estruturaRepetitivaForExercicio {
 
         }
 
-
+  
     System.out.println(soma);
 
 
