@@ -1,8 +1,8 @@
-package CalculandoRaizQuadrada;
+package CalculandoEquacaoSegundoGrau;
 
 import java.util.Scanner;
 
-public class raizQuadrada {
+public class EquacaoSegundoGrau {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
