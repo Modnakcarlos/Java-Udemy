@@ -39,6 +39,7 @@ public class EquacaoSegundoGrau {
 
             System.out.println("Deseja calcular mais uma raiz quadrada? (s/n)");
             resp = sc.next().charAt(0);
+
         }
         while (resp != 'n');
 
