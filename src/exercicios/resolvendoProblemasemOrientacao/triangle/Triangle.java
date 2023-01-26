@@ -1,5 +1,4 @@
-package programacaoOrientadaAObjetos.resolvendoProblemasemOrientacao.triangle;
-
+package exercicios.resolvendoProblemasemOrientacao.triangle;
 public class Triangle {
     
     public double a;

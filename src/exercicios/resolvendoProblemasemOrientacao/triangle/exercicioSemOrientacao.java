@@ -1,4 +1,4 @@
-package programacaoOrientadaAObjetos.resolvendoProblemasemOrientacao.triangle;
+package exercicios.resolvendoProblemasemOrientacao.triangle;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package programacaoOrientadaAObjetos.entities;
+package exercicios.entities;
 
 public class Product {
     
@@ -16,9 +16,11 @@ public class Product {
 
     public void removeProduct(int quantity) {
         this.quantity -= quantity;
+        
     }
 
-
-
+    public String toString() {
+        return name + ", $ " + String.format("%.2f", price ) + ", " + quantity + " units, TOTAL: $ " + String.format("%.2f", totalValueStock());
+    }
 
 }

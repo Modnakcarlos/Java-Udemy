@@ -1,4 +1,4 @@
-package programacaoOrientadaAObjetos.resolvendoProblemasemOrientacao.trapezio;
+package exercicios.resolvendoProblemasemOrientacao.trapezio;
 
 public class FuncaoMedidas {
 

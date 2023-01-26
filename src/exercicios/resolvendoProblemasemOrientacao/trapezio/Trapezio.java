@@ -1,4 +1,4 @@
-package programacaoOrientadaAObjetos.resolvendoProblemasemOrientacao.trapezio;
+package exercicios.resolvendoProblemasemOrientacao.trapezio;
 
 import java.util.Locale;
 import java.util.Scanner;
