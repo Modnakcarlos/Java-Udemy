@@ -6,8 +6,14 @@ public class Employee {
     public double desconto;
 
     public double salarioLiquido() {
-        return salarioBruto * (1 - desconto);
+        return salarioBruto  - desconto;
     }
 
-    public void 
+    public void aumentarSalario(double porcentagem) {
+        salarioBruto += salarioBruto * porcentagem / 100.0;
+    }
+
+    public String toString() {
+        return "Funcionário: " + nome + ", $ " + String.format("%.2f", salarioLiquido());
+    }
 }
