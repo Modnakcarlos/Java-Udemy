@@ -49,7 +49,7 @@ public class Dados {
     }
 
     public void sacar(double saldo) {
-        this.saldo -= saldo + 5;
+        this.saldo -= saldo + 5.0;
     }
 
 
