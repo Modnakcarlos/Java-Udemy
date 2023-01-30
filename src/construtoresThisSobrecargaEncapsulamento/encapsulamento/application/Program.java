@@ -10,31 +10,38 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Product product = new Product(); 
+        
         System.out.println("Enter product data: ");
         System.out.print("Name: ");
-        product.name = sc.nextLine();
+        String name = sc.nextLine();
         System.out.print("Price: ");
-        product.price = sc.nextDouble();
+        double price = sc.nextDouble();
         System.out.print("Quantity in stock: ");
-        product.quantity = sc.nextInt();
-
-        System.out.println("Product data: " + product.toString());
-        System.out.println();
-
-        System.out.print("Enter the number of products to be added in stock: " );
         int quantity = sc.nextInt();
-        product.addProducts(quantity);
+
+        Product produto = new Product(name, price);
+
+        produto.setName("PlayStation 5"); 
+        // Se quisermos chamar um objeto privado, teremos que usar getName
+        System.out.println("atualização do nome: " + produto.getName());
 
         System.out.println();
-        System.out.println("Updated data: " + product);
+        
+        System.out.println("Product data: " + produto);
+        
+        System.out.print("Enter the number of products to be added in stock: " );
+        quantity = sc.nextInt();
+        produto.addProducts(quantity);
+
+        System.out.println();
+        System.out.println("Updated data: " + produto);
 
         System.out.print("Enter the number to be remove in stock: ");
         quantity = sc.nextInt();
-        product.removeProduct(quantity);
+        produto.removeProduct(quantity);
 
         System.out.println();
-        System.out.println("Updated data: " + product);
+        System.out.println("Updated data: " + produto);
 
 
 
