@@ -52,7 +52,7 @@ public class DadosPessoais {
         mediaMulheres = somaMulheres / numeroMulheres;
 
         System.out.printf("Menor Altura: %.2f\n", menorAltura);
-        System.out.printf("Menor Altura: %.2f\n", maiorAltura);
+        System.out.printf("Maior Altura: %.2f\n", maiorAltura);
 
         System.out.printf("Media das alturas das mulheres: %.2f\n", mediaMulheres);
         System.out.printf("Número de homens: %d\n", (n - numeroMulheres));
