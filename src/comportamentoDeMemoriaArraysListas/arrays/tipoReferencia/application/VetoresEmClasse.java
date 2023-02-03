@@ -15,7 +15,7 @@ public class VetoresEmClasse {
 
         int n = sc.nextInt();
 
-        Products[] produto = new Products[n];
+        Products[] produto = new Products[n]; 
 
         for(int i = 0; i<produto.length; i++) {
 
@@ -34,16 +34,7 @@ public class VetoresEmClasse {
 
          double media = soma / produto.length;
 
-
          System.out.printf("Media: %.2f%n", media);
-
- 
-
-
-
-
-
-
         sc.close();
     }
 }
