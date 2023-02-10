@@ -48,6 +48,22 @@ public class ExercicioScriptBrasil {
 
         
             System.out.println("dados: " + dados);
+            
+            System.out.print("Deseja alterar dados de telefone de qual fincionário (inserir ID)?  ");
+            int id = sc.nextInt();
+            Cliente filtradoCliente = dados.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
+
+            if(filtradoCliente == null) {
+                System.out.println("Este cliente não está nos dados inseridos.");
+            }
+            else {
+                System.out.println(filtradoCliente);
+                System.out.print("Insira o número novo: ");
+                long numeroNovo = sc.nextLong();
+                filtradoCliente.setTelefone(numeroNovo);
+            }
+
+            System.out.println(dados);
             sc.close();
     }
 }

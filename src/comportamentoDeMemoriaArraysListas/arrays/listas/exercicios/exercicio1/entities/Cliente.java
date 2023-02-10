@@ -24,6 +24,14 @@ public class Cliente {
         return id;
     }
 
+    public void setTelefone(Long telefone) {
+        this.telefone = telefone;
+    }
+
+    public Long getTelefone() {
+        return telefone;
+    }
+
     public String toString() {
         return id + ", " + nome + ", " + idade + " anos, " + "telefone: " + telefone;
     }
