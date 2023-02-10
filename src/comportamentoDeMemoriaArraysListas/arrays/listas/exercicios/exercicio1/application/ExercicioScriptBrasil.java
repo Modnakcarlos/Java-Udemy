@@ -46,16 +46,8 @@ public class ExercicioScriptBrasil {
         }
         while(resp != 'n');
 
-        System.out.println(" " + dados);
-
-
-
-
-
-
-
-
-
-        sc.close();
+        
+            System.out.println("dados: " + dados);
+            sc.close();
     }
 }

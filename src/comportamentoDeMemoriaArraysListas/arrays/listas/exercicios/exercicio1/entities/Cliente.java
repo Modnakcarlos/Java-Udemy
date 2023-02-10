@@ -25,7 +25,7 @@ public class Cliente {
     }
 
     public String toString() {
-        return id + ", " + nome + ", " + idade + " anos, " + "telefone: " + telefone + String.format("\n");
+        return id + ", " + nome + ", " + idade + " anos, " + "telefone: " + telefone;
     }
 
 }
