@@ -11,10 +11,10 @@ public class PosicaoMatriz {
         System.out.println("Insira a quantidade de linhas e colunas:");
         System.out.print("Linhas: ");
         int l = sc.nextInt();
-        sc.nextLine();
+            sc.nextLine();
         System.out.print("Colunas: ");
         int c = sc.nextInt();
-        sc.nextLine();
+            sc.nextLine();
 
         int[][] matriz = new int [l][c];
 
@@ -27,7 +27,31 @@ public class PosicaoMatriz {
         System.out.print("Escolha o elemento da matriz: ");
         int valorPrincipal = sc.nextInt();
 
+        //Sem valor inserido tá nessa posição
         
+
+        for(int i = 0; i < matriz.length; i++) {
+            for(int j = 0; j < matriz[i].length; j++) {
+                if(valorPrincipal == matriz[i][j]) {
+                    System.out.println("Posição: " + i + ", " + j);
+
+                    if(j > 0) {
+                        System.out.println("    - Esquerda: " + matriz[i][j - 1]);
+                    }
+                    if(i > 0) {
+                        System.out.println("    - Acima: " + matriz[i - 1][j]);
+                    }
+                    if(j < matriz[i].length-1) {
+                        System.out.println("    - Direita:" + matriz[i][j + 1]);
+                    }
+                    if(i < matriz.length-1) {
+                        System.out.println("    - Abaixo: " + matriz[i + 1][j]);
+
+                    }
+                }
+            }
+        }
+
         int indicador = 0;
         for(int i = 0; i < matriz.length; i++) {
             for(int j = 0; j < matriz[i].length; j++) {
@@ -37,26 +61,7 @@ public class PosicaoMatriz {
             }
         }
 
-        for(int i = 0; i < matriz.length; i++) {
-            for(int j = 0; j < matriz[i].length; j++) {
-                if(valorPrincipal == matriz[i][j]) {
-                    if(j > 0) {
-                        System.out.println("Esquerda: " + matriz[i][j - 1]);
-                    }
-                    if(i > 0) {
-                        System.out.println("Abaixo: " + matriz[i + 1][j]);
-                    }
-                    if(j < matriz[i].length-1) {
-                        System.out.println("Direita:" + matriz[i][j + 1]);
-                    }
-                    if(i < matriz.length-1) {
-                        System.out.println("Abaixo: " + matriz[i - 1][j]);
-                    }
-                }
-            }
-        }
-
-        if(indicador != 0) {
+        if(indicador == 0) {
             System.out.println("O valor inserido não está contido na matriz.");
         }
         sc.close();
