@@ -1,4 +1,4 @@
-package enumeracoesComposicao.exercicioDeFixacao.hourContract;
+package enumeracoesComposicao.exercicioDeFixacao.entities.hourContract;
 
 import java.util.Date;
 

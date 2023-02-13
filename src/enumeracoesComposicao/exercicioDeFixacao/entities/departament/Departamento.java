@@ -1,4 +1,4 @@
-package enumeracoesComposicao.exercicioDeFixacao.departament;
+package enumeracoesComposicao.exercicioDeFixacao.entities.departament;
 
 public class Departamento {
     private String name;
