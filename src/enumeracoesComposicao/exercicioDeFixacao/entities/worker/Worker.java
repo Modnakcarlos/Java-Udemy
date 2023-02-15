@@ -1,6 +1,7 @@
 package enumeracoesComposicao.exercicioDeFixacao.entities.worker;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 import enumeracoesComposicao.exercicioDeFixacao.entities.departament.Departamento;
@@ -57,15 +58,29 @@ public class Worker {
         return departamento;
     }
 
-    public void addContrato(HourContract contratos) {
-        this.contratos.add(contratos);
-    }
-
     public List<HourContract> getContratos() {
         return contratos;
+    }
+
+    public void addContrato(HourContract contratos) {
+        this.contratos.add(contratos);
     }
 
     public void removeContrato(HourContract contratos) {
         this.contratos.remove(contratos);
     }
+
+    public double income(int mes, int ano) {
+		double sum = salarioBase;
+		Calendar cal = Calendar.getInstance();
+		for (HourContract c : contratos) {
+			cal.setTime(c.getDate());
+			int c_year = cal.get(Calendar.YEAR);
+			int c_month =1 + cal.get(Calendar.MONTH);
+			if (ano == c_year && mes == c_month) {
+				sum += c.totalValue();
+			}
+		}
+		return sum;
+	}
 }

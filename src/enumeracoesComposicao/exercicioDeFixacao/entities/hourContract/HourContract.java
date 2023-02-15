@@ -5,15 +5,15 @@ import java.util.Date;
 public class HourContract {
     Date date;
     Double valorPorHora;
-    Integer horas;
+    Integer horasTrabalhadas;
 
     public HourContract() {
     }
 
-    public HourContract(Date date, Double valorPorHora, Integer horas) {
+    public HourContract(Date date, Double valorPorHora, Integer horasTrabalhadas) {
         this.date = date;
         this.valorPorHora = valorPorHora;
-        this.horas = horas;
+        this.horasTrabalhadas = horasTrabalhadas;
     }
 
     public void setDate(Date date) {
@@ -32,15 +32,15 @@ public class HourContract {
         return valorPorHora;
     }
 
-    public void setHoras(Integer horas) {
-        this.horas = horas;
+    public void setHoras(Integer horasTrabalhadas) {
+        this.horasTrabalhadas = horasTrabalhadas;
     }
 
     public Integer getHoras() {
-        return horas;
+        return horasTrabalhadas;
     }
 
     public double totalValue() {
-        return valorPorHora * horas;
+        return valorPorHora * horasTrabalhadas;
     }
 }
