@@ -1,4 +1,4 @@
-package herancaEPolimorfismo.teoria.exemplo.entities;
+package herancaEPolimorfismo.exemplo.entities;
 
 public class SavingsRate extends Account {
     
@@ -25,4 +25,8 @@ public class SavingsRate extends Account {
         balance += balance * interestRate;
     }
 
+    @Override
+    public void withdraw(double amount) {
+        balance -= amount;
+    }
 }

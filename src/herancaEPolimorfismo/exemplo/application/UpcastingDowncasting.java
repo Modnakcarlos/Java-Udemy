@@ -1,10 +1,10 @@
-package herancaEPolimorfismo.teoria.exemplo.application;
+package herancaEPolimorfismo.exemplo.application;
 
-import herancaEPolimorfismo.teoria.exemplo.entities.Account;
-import herancaEPolimorfismo.teoria.exemplo.entities.BusinessAccount;
-import herancaEPolimorfismo.teoria.exemplo.entities.SavingsRate;
+import herancaEPolimorfismo.exemplo.entities.Account;
+import herancaEPolimorfismo.exemplo.entities.BusinessAccount;
+import herancaEPolimorfismo.exemplo.entities.SavingsRate;
 
-public class Program {
+public class UpcastingDowncasting {
     public static void main(String[] args) {
         
         //Account acc = new Account(1001, "Maria", 1200.0);

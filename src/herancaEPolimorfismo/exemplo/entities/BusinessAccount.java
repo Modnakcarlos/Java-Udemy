@@ -1,4 +1,4 @@
-package herancaEPolimorfismo.teoria.exemplo.entities;
+package herancaEPolimorfismo.exemplo.entities;
 
 public class BusinessAccount extends Account{
         
@@ -30,6 +30,9 @@ public class BusinessAccount extends Account{
             System.out.println("Seu limite de transferência é: " + loanLimit);
         }
     }
-
+    @Override
+    public void withdraw(double amount) {
+        super.withdraw(amount);
+        balance -= 2;
+    }
 }
-

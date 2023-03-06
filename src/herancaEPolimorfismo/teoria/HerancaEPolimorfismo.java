@@ -12,6 +12,18 @@ public class HerancaEPolimorfismo {
      * sintaxe: 
      *  class a extends b {
      * }
+     * 
+     * -------------------------
+     * final é um recurso para a classe não ser herdada.
+     *      ex: public final class SavingsAccount extends Account {
+     * }
+     * 
+     * final em método:
+     *      é uma maneira de não criar sobreposições
+     * 
+     * é recomendado adicionar final e métodos e principalmente em métodos;
+     * 
+     * subclasses  com final são mais eficientes para o console. Otimiza o código. 
      */
 
 

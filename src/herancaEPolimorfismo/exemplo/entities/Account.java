@@ -1,4 +1,4 @@
-package herancaEPolimorfismo.teoria.exemplo.entities;
+package herancaEPolimorfismo.exemplo.entities;
 
 public class Account {
     private Integer number;
@@ -34,7 +34,7 @@ public class Account {
     }
     
     public void withdraw(double amount) {
-        balance -= amount;
+        balance -= amount + 5;
     }
 
     public void deposit(double amount) {
