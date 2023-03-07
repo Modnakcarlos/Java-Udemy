@@ -1,13 +1,13 @@
-package herancaEPolimorfismo.exercicio2.exercicio4.Application;
+package herancaEPolimorfismo.exercicio4.Application;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import herancaEPolimorfismo.exercicio2.exercicio4.entities.Company;
-import herancaEPolimorfismo.exercicio2.exercicio4.entities.Individual;
-import herancaEPolimorfismo.exercicio2.exercicio4.entities.TaxPayer;
+import herancaEPolimorfismo.exercicio4.entities.Company;
+import herancaEPolimorfismo.exercicio4.entities.Individual;
+import herancaEPolimorfismo.exercicio4.entities.TaxPayer;
 
 public class Program {
     public static void main(String [] args) {

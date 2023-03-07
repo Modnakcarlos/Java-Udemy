@@ -1,4 +1,4 @@
-package herancaEPolimorfismo.exercicio2.exercicio4.entities;
+package herancaEPolimorfismo.exercicio4.entities;
 
 public abstract class TaxPayer {
     private String name;
