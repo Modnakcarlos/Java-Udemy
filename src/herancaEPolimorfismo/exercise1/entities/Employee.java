@@ -1,4 +1,4 @@
-package herancaEPolimorfismo.exercise.entities;
+package herancaEPolimorfismo.exercise1.entities;
 
 public class Employee {
     private String name;

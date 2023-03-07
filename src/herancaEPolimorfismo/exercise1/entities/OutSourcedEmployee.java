@@ -1,4 +1,4 @@
-package herancaEPolimorfismo.exercise.entities;
+package herancaEPolimorfismo.exercise1.entities;
 
 public final class OutSourcedEmployee extends Employee {
     

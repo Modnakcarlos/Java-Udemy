@@ -1,12 +1,12 @@
-package herancaEPolimorfismo.exercise.Application;
+package herancaEPolimorfismo.exercise1.Application;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import herancaEPolimorfismo.exercise.entities.Employee;
-import herancaEPolimorfismo.exercise.entities.OutSourcedEmployee;
+import herancaEPolimorfismo.exercise1.entities.Employee;
+import herancaEPolimorfismo.exercise1.entities.OutSourcedEmployee;
 
 public class Program {
     public static void main(String []args) {
@@ -51,13 +51,6 @@ public class Program {
             //lembrar de usar a variável "a" nas próximas linhas de codigo, e não o nome da lista;
 			System.out.println(e.getName() + " - R$ " + String.format("%.2f", e.payment()));
 		}
-
-
-
-
-
-
-
         sc.close();
     }
 }
