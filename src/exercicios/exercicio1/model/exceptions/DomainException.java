@@ -1,4 +1,4 @@
-package tratamentoDeErros.exemplo.model.exceptions;
+package exercicios.exercicio1.model.exceptions;
 
 public class DomainException extends Exception{
 

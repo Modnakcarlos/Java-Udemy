@@ -22,7 +22,7 @@ public class Program {
         System.out.print("Checkin date (dd/MM/YYYY): ");
         Date checkIn = sdf.parse(sc.next());
 
-        System.out.println("Checkin date (dd/MM/YYYY): ");
+        System.out.print("Checkout date (dd/MM/YYYY): ");
         Date checkOut = sdf.parse(sc.next());
 
         Reservation reserva = new Reservation(roomNumber, checkIn, checkOut);
@@ -33,7 +33,7 @@ public class Program {
         System.out.print("Checkin date (dd/MM/YYYY): ");
         checkIn = sdf.parse(sc.next());
 
-        System.out.println("Checkin date (dd/MM/YYYY): ");
+        System.out.print("Checkout date (dd/MM/YYYY): ");
         checkOut = sdf.parse(sc.next());
 
         reserva.updateDate(checkIn, checkOut);
