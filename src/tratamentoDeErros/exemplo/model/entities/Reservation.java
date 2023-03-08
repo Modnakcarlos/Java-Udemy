@@ -12,7 +12,7 @@ public class Reservation {
     private Date checkIn;
     private Date checkOut;
     
-    SimpleDateFormat sdf = new SimpleDateFormat("DD/MM/YYYY");
+    SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
     public Reservation() {
         super();
@@ -20,7 +20,7 @@ public class Reservation {
     
     public Reservation(Integer roomNumber, Date checkIn, Date checkOut) {
 
-        if(!checkIn.after(checkOut)) {
+        if(!checkOut.after(checkIn)) {
             throw new IllegalArgumentException("Check-out date must be after check-in date");
         }
         this.roomNumber = roomNumber;
@@ -64,7 +64,7 @@ public class Reservation {
         if(checkIn.before(now) || checkOut.before(now)) {
             throw new IllegalArgumentException("Reservation dates for update must be future dates");       
         }
-        else if(!checkIn.after(checkOut)) {
+        else if(!checkOut.after(checkIn)) {
             throw new DomainException("Check-out date must be after check-in date");
         }
 

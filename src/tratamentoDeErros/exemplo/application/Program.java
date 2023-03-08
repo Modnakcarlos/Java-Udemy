@@ -12,12 +12,11 @@ public class Program {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/YYYY");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
-        
         try{
         System.out.print("Room number: ");
-        int roomNumber = sc.nextInt();
+        Integer roomNumber = sc.nextInt();
         sc.nextLine();
 
         System.out.print("Checkin date (dd/MM/YYYY): ");
