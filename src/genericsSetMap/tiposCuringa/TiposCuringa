@@ -1,0 +1,19 @@
+é usado para tornar a nossa lista genérica, isso pode tornar nossos métodos mais universais
+
+List<?> (super tipo) - é a lista genérica, tem em qualquer outra lista.
+
+O supertipo de qualquer tipo de lista é List<?>. Este é um tipo curinga
+
+onde usar?
+List<?> myObjs = new ArrayList<Object>();
+
+
+Podemos usar nos métodos:
+
+public static void printList(List<?> list) {
+    for (Object obj : list) {
+    System.out.println(obj);
+}
+
+*** NÃO PODEMOS ADICIONAR ELEMENTOS NA LISTA ***
+

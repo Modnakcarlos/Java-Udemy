@@ -1,0 +1,10 @@
+PRA QUE SERVE OS TIPOS GENÉRICOS?
+ - São usados principalmente em coleções.
+ - Para dar mais segurança e consistência ao código. não permitirá entrada de outros tipos de dados, além disso, a mesma estrutura
+pode ser usada para qualquer tipo (afinal, é genérico).
+
+
+
+
+PONTOS NEGATIVOS:
+ - não podemos adicionar dados a lista, apenas manipulá-la.
