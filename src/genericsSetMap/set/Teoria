@@ -1,0 +1,27 @@
+Set<T>
+representa um conjunto de elementos
+não possuem posição
+Acesso e tudo é rápido
+oferece operações de conjuntos
+
+    -------------------------------------------
+
+***PRINCIPAIS IMPLEMENTAÇÕES***
+    HashSet - o mais rapido
+    Treeset - mais lento e ordenado pelo compareTo do objeto
+    LinkedHashSet - intermediário e elementos na ordem que foram adicionados
+
+    -------------------------------------------
+
+***ALGUNS MÉTODOS IMPORTANTES***
+    add(obj), remove(obj), contains(obj)
+        - baseado em equals e hashCode
+        - se equals e hashcode não existir, é usada comparação de ponteiros
+
+    clear()
+    size()
+    removeIf(predicado)
+
+    addAll(other) - união: adiciona no conjunto sem repetição
+    retainAll(other) - interseção: apenas os elementos em comum
+    removeAll(other) - diferença: exclusivos, não tem no other

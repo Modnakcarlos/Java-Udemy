@@ -1,4 +1,4 @@
-package genericsSetMap.tiposCuringa.Delimitado.entities.Shapes;
+package genericsSetMap.tiposCuringa.Delimitado.exemplo1.entities.Shapes;
 
 public class Rectangle implements Shape {
     private double width;

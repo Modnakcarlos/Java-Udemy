@@ -1,9 +1,9 @@
-package genericsSetMap.tiposCuringa.Delimitado.app;
+package genericsSetMap.tiposCuringa.Delimitado.exemplo1.app;
 
-import genericsSetMap.tiposCuringa.Delimitado.entities.Shapes.Circle;
-import genericsSetMap.tiposCuringa.Delimitado.entities.Shapes.Rectangle;
-import genericsSetMap.tiposCuringa.Delimitado.entities.Shapes.Shape;
-import genericsSetMap.tiposCuringa.Delimitado.entities.FullSpace;
+import genericsSetMap.tiposCuringa.Delimitado.exemplo1.entities.Shapes.Circle;
+import genericsSetMap.tiposCuringa.Delimitado.exemplo1.entities.Shapes.Rectangle;
+import genericsSetMap.tiposCuringa.Delimitado.exemplo1.entities.Shapes.Shape;
+import genericsSetMap.tiposCuringa.Delimitado.exemplo1.entities.FullSpace;
 
 import java.util.ArrayList;
 import java.util.List;

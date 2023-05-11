@@ -1,6 +1,6 @@
-package genericsSetMap.tiposCuringa.Delimitado.entities;
+package genericsSetMap.tiposCuringa.Delimitado.exemplo1.entities;
 
-import genericsSetMap.tiposCuringa.Delimitado.entities.Shapes.Shape;
+import genericsSetMap.tiposCuringa.Delimitado.exemplo1.entities.Shapes.Shape;
 
 import java.util.List;
 
